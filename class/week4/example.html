@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> TEEN WOLF</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+    .height{
+      height:200px;
+    }
+    .fitHeightWidth{
+      height:100%;
+      width:100%;
+    }
+
+    .relativeParent{
+      position:relative;
+}
+
+  .absoluteChild{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexSpaceBetween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexSpaceAround{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body{
+  background-image: url(dark.png);
+}
+h1{
+  font-family: lora;
+  font-size:100;
+  text-align:center;
+  color:white;
+}
+    </style>
+  </head>
+  <body>
+    <h1> TEEN WOLF</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 height ">
+          <img src="example/teen.png" class="fitHeightWidth" alt="flower" >
+        </div>
+        <div class="col-md-3 height relativeparent">
+          <img src="example/people.png" class="absoluteChild" alt="yellow">
+        </div>
+        <div class="col-md-3 height flex">
+          <img src="example/wolf.png" alt="yellow">
+        </div>
+        <div class="col-md-3 height flex">
+            <img src="example/scott.png" alt="yellow">
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12 height flexSpaceBetween">
+          <img src="example/stiles.png" alt="yellow">
+          <img src="example/tony.png" alt="yellow">
+          <img src="example/steve.png" alt="yellow">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 height flex">
+                <img src="example/spirl.png" alt="yellow">
+        </div>
+        <div class="col-md-3 height flex">
+                <img src="example/lydia.png" alt="yellow">
+        </div>
+        <div class="col-md-3 height flex">
+                <img src="example/derek.png" alt="yellow">
+        </div>
+        <div class="col-md-3 height flex">
+                <img src="example/hi.png" alt="yellow">
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 height flexSpaceBetween">
+            <img src="example/lol.png" alt="yellow">
+            <img src="example/monkey.png" alt="yellow">
+            <img src="example/abean.png" alt="yellow">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        //get a random color between 0 and 255
+        function getRandomColor() {
+          return Math.floor(Math.random() * 255);
+        }
+
+        var randomColor = $(".randomColor");
+
+        $.each(randomColor, function(index, item) {
+          $(this).css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
+        })
+
+      })
+    </script>
+  </body>
+</html>
