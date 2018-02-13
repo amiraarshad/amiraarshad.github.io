@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>One Direction Ranked</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+    .height1{
+      height:75px;
+    }
+    .height{
+      height:600px;
+    }
+    .flexsingleitem{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      word-spacing:40px;
+    }
+
+    h1{
+      text-align: center;
+      font-style: italic;
+      font-family: lora;
+    }
+
+body{
+  background-image: url("img/turtles.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+ul li{
+list-style: none;
+text-transform: uppercase;
+}
+
+ ul li a,ul li a:hover{
+   text-decoration: none;
+ }
+
+    </style>
+  </head>
+  <body>
+     <h1> One Direction Ranked</h1>
+    <div class="container">
+      <div class="row">
+         <div class="col-md-12 height1 flexsingleitem">
+
+        <nav>
+        <ul>
+        <li>
+    <a href="#"> Home</a>
+      <a href="#"> About</a>
+        <a href="#"> Contact Us</a>
+          <a href="#"> Location</a>
+        </li>
+       </ul>
+</nav>
+
+
+         </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2 height ">
+        </div>
+        <div class="col-md-8 height ">
+          <table class= "table table-striped table-hover">
+            <tr>
+              <th>Name Of Member</th>
+              <th>Age Of Memeber</th>
+              <th>How Many Solo's Given</th>
+              <th>Best Outfit Worn</th>
+               <th>Best Song By Each Memeber</th>
+               <th>Hair Colour</th>
+               <th>A Picture Of Them</th>
+
+            </tr>
+            <tr>
+              <td>Liam Payne</td>
+              <td>24</td>
+              <td>Basically everysong</td>
+              <td>Him in plaid</td>
+               <td> What A Feeling</td>
+               <td>Brown</td>
+                  <td> <img src = "img/liam.jpg" alt="liam"> </td>
+
+            </tr>
+            <tr>
+              <td>Zayn Malik</td>
+              <td>25</td>
+              <td>Basically everysong</td>
+              <td>Japan Zayn</td>
+               <td></td>
+               <td>Black</td>
+                  <td> <img src = "img/zayn.jpg" alt="zayn"> </td>
+
+            </tr>
+            <tr>
+              <td>Niall Horan</td>
+              <td>24</td>
+              <td>More solo's towards last two albums</td>
+              <td>Best song ever outfit</td>
+               <td></td>
+               <td>Blonde</td>
+                  <td> <img src = "img/niall.jpg" alt="niall"> </td>
+
+            </tr>
+            <tr>
+              <td>Harry Styles</td>
+              <td>24</td>
+              <td>Basically everysong</td>
+              <td>The hand dress shirt</td>
+               <td></td>
+               <td>Brown</td>
+               <td> <img src = "img/harry.jpg" alt="harry"> </td>
+
+
+
+            </tr>
+            <tr>
+              <td>Louis Tomlinson</td>
+              <td>26</td>
+              <td>3</td>
+              <td>Strips and Red Pants</td>
+               <td>Change My Mind</td>
+               <td>Brown</td>
+                  <td> <img src = "img/louis.png" alt="louis"> </td>
+
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-2 height ">
+          <img src = "img/us.jpg" alt="Between Us">
+          <img src = "img/another.jpg" alt="Perfume">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 height1 ">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        //get a random color between 0 and 255
+        function getRandomColor() {
+          return Math.floor(Math.random() * 255);
+        }
+
+        var randomColor = $(".randomColor");
+
+        $.each(randomColor, function(index, item) {
+          $(this).css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
+        })
+
+      })
+      </script>
+  </body>
+</html>
