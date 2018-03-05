@@ -1,0 +1,43 @@
+[
+{
+  "coffeeName":"Double Double",
+  "brand":"Tim Hortons",
+  "coffeeType":"Medium Roast",
+  "flavour":"Mild",
+  "popularity":"10",
+  "creamormilk":"Milk"
+},
+{
+  "coffeeName":"Caramel Macchiatto",
+  "brand":"Starbucks",
+  "coffeeType":"Mild",
+  "flavour":"Sweet",
+  "popularity":"9",
+  "creamormilk":"Milk"
+},
+{
+  "coffeeName":"Latte",
+  "brand":"Mcdonalds",
+  "coffeeType":"Mild",
+  "flavour":"Light",
+  "popularity":"6",
+  "creamormilk":"Milk"
+},
+{
+  "coffeeName":"Espresso",
+  "brand":"Second Cup",
+  "coffeeType":"Strong",
+  "flavour":"Strong",
+  "popularity":"10",
+  "creamormilk":"Cream"
+},
+{
+  "coffeeName":"Americano",
+  "brand":"Coffee Time",
+  "coffeeType":"Watered Down",
+  "flavour":"Watery",
+  "popularity":"5",
+  "creamormilk":"Milk"
+},
+
+]
