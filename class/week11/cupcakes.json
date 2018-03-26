@@ -1,0 +1,34 @@
+{
+  "Sheet1": {
+    "1": {
+      "itemId": 1,
+      "AmiArTitle": "Red Velvet",
+      "proAndPrice": 15,
+      "proAndImgUrl": "amiraarshad.github.io/class/week11/img/red.png"
+    },
+    "2": {
+      "itemId": 2,
+      "AmiArTitle": "Vanilla",
+      "proAndPrice": 5,
+      "proAndImgUrl": "amiraarshad.github.io/class/week11/img/vanilla.jpg"
+    },
+    "3": {
+      "itemId": 3,
+      "AmiArTitle": "Chocolate",
+      "proAndPrice": 5,
+      "proAndImgUrl": "amiraarshad.github.io/class/week11/img/chocolate.png"
+    },
+    "4": {
+      "itemId": 4,
+      "AmiArTitle": "Pina Colada",
+      "proAndPrice": 15,
+      "proAndImgUrl": "amiraarshad.github.io/class/week11/img/pina.jpg"
+    },
+    "5": {
+      "itemId": 5,
+      "AmiArTitle": "Marble ",
+      "proAndPrice": 10,
+      "proAndImgUrl": "amiraarshad.github.io/class/week11/img/marble.jpg"
+    }
+  }
+}
