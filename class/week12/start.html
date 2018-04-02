@@ -122,6 +122,9 @@
           }
           //alert("value "+val);
         })
+        $(",buyButton").on("click",function(){
+          console.log("clicked buy!");
+        })
     }
 
     function writeJSONToDOM(d){
@@ -155,6 +158,21 @@
         //loop this here
       $(".output").html(html);
     }
+
+    var formHtml ="";
+    var formUrl = "https://andersonguelphjs.github.io/class/week12/partial.html";
+$.get(formUrl)
+.done(function(data){//success
+  console.log("success get select formHtml! ");
+  console.log(data);
+  formHtml=data;
+
+})
+.fail(function(data){//fail
+  console.log("fail get select json! ");
+  console.dir(data);
+})
+
     $(document).ready(function() {
       getOptions();
       getAds();
