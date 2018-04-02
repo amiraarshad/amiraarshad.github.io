@@ -166,19 +166,13 @@ var spriteImages = [{
     "name": "liam"
   },
   {
-    “spriteMapUrl”:"https://bill-curne.github.io/class/wanimation/images/heartbeat.png",
-    "numFrames": 10,
-    "width": 1000,
-    "height": 100,
-    "name": "heartbeat"
-  },
-  {
     "spriteMapUrl": "https://celiafosch.github.io/class/week12/animation/images/henry.png",
     "numFrames": 5,
     "width": 480,
     "height": 480,
     "name": "Henry"
   },
+
 
 ];
 var animations = []; //an array to hold the currently existing sprite obects
