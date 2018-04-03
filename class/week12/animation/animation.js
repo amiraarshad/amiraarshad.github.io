@@ -172,6 +172,29 @@ var spriteImages = [{
     "height": 480,
     "name": "Henry"
   },
+  {
+      "spriteMapUrl": "https://bill-curne.github.io/class/animation/images/heisenberg.png",
+      "numFrames": 10,
+      "width": 1300,
+      "height": 130,
+      "name": "heisenberg"
+    },
+    {
+      "spriteMapUrl": "https://loucasl.github.io/class/week12/animation/images/ari.png",
+      "numFrames": 7,
+      "width": 3134,
+      "height": 422,
+      "name": "ari"
+    },
+    {
+    "spriteMapUrl":"https://alissavalentina.github.io/class/week12/animation/images/winnie2.png",
+    "numFrames": 10,
+    "width": 919 ,
+    "height": 100,
+    "name":"winnie the pooh"
+  }
+
+
 
 
 ];
